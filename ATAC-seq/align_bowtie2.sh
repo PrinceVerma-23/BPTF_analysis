@@ -1,7 +1,7 @@
 #bowtie2 singularity container loc
 bowtie2_program="singularity run --app bowtie2244 /share/singularity/images/ccs/conda/amd-conda2-centos8.sinf"
 
-#Bowtie index
+#Bowtie2 index
 smed_h1_idx=/home/pve232/scratch/new_chr_genome/schmed_h1_bowtie2_idx/schmed_h1
 
 
