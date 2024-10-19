@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #deeptools singularity container
 deeptools_program="singularity run --app deeptools351 /share/singularity/images/ccs/conda/amd-conda8-rocky8.sinf"
 
