@@ -1,3 +1,5 @@
+#!/bin/bash
+
 macs2_program="singularity run --app macs22271 /share/singularity/images/ccs/conda/amd-conda8-rocky8.sinf"
 
 # Effective genome_size=840196558 total non-N bases
