@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #bowtie2 singularity container loc
 bowtie2_program="singularity run --app bowtie2244 /share/singularity/images/ccs/conda/amd-conda2-centos8.sinf"
 
