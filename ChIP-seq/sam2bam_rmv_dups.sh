@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script was ran using SLURM scheduler.
-# singularity container for bowtie2 and samtools
+# singularity container for picard and samtools
 samtools_program="singularity run --app samtools113 /share/singularity/images/ccs/ngstools/samtools-1.13+matplotlib-bcftoools-1.13.sinf"
 picard="singularity run --app picard2264 /share/singularity/images/ccs/conda/amd-conda2-centos8.sinf java -jar /usr/local/picard-2.26.4/picard.jar"
 
