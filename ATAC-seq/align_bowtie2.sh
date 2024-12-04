@@ -4,7 +4,7 @@
 bowtie2_program="singularity run --app bowtie2244 /share/singularity/images/ccs/conda/amd-conda2-centos8.sinf"
 
 #Bowtie2 index
-smed_h1_idx=/home/pve232/scratch/new_chr_genome/schmed_h1_bowtie2_idx/schmed_h1
+smed_h1_idx="/home/pve232/scratch/new_chr_genome/schmed_h1_bowtie2_idx/schmed_h1"
 
 
 for i in {unc_rep1,unc_rep2,bptf_rep1,bptf_rep2}
